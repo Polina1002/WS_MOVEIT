@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/atmel_paket/lib/pkgconfig/atmel_paket.pc

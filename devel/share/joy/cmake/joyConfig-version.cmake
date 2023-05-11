@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/joy/share/joy/cmake/joyConfig-version.cmake

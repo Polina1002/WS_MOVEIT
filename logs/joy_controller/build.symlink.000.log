@@ -1,0 +1,3 @@
+Symlinking /home/ubuntupc/ws_moveit/devel/share/joy_controller/cmake/joy_controllerConfig-version.cmake
+Symlinking /home/ubuntupc/ws_moveit/devel/share/joy_controller/cmake/joy_controllerConfig.cmake
+Symlinking /home/ubuntupc/ws_moveit/devel/lib/pkgconfig/joy_controller.pc

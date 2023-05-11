@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="joy_controller_sub"/>
+    <node pkg="avr_connection" name="joy_controller" type="joy_setter.py" output="screen">
+        <!-- <remap from="cmd_vel" to="$(arg joy_controller_sub)"/> -->
+    </node>
+</launch>

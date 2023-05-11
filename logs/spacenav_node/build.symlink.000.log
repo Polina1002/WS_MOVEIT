@@ -1,0 +1,4 @@
+Symlinking /home/ubuntupc/ws_moveit/devel/share/spacenav_node/cmake/spacenav_nodeConfig.cmake
+Symlinking /home/ubuntupc/ws_moveit/devel/share/spacenav_node/cmake/spacenav_nodeConfig-version.cmake
+Symlinking /home/ubuntupc/ws_moveit/devel/lib/pkgconfig/spacenav_node.pc
+Symlinking /home/ubuntupc/ws_moveit/devel/lib/spacenav_node/spacenav_node

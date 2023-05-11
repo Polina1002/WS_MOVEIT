@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0fa84/fast && /usr/bin/make -f CMakeFiles/cmTC_0fa84.dir/build.make CMakeFiles/cmTC_0fa84.dir/build
+make[1]: вход в каталог «/home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0fa84.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_0fa84.dir/src.c.o   -c /home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0fa84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fa84.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_0fa84.dir/src.c.o  -o cmTC_0fa84 
+/usr/bin/ld: CMakeFiles/cmTC_0fa84.dir/src.c.o: в функции «main»:
+src.c:(.text+0x46): неопределённая ссылка на «pthread_create»
+/usr/bin/ld: src.c:(.text+0x52): неопределённая ссылка на «pthread_detach»
+/usr/bin/ld: src.c:(.text+0x63): неопределённая ссылка на «pthread_join»
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0fa84.dir/build.make:87: cmTC_0fa84] Ошибка 1
+make[1]: выход из каталога «/home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp»
+make: *** [Makefile:121: cmTC_0fa84/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_82dab/fast && /usr/bin/make -f CMakeFiles/cmTC_82dab.dir/build.make CMakeFiles/cmTC_82dab.dir/build
+make[1]: вход в каталог «/home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_82dab.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_82dab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82dab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82dab.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_82dab.dir/CheckFunctionExists.c.o  -o cmTC_82dab  -lpthreads 
+/usr/bin/ld: невозможно найти -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_82dab.dir/build.make:87: cmTC_82dab] Ошибка 1
+make[1]: выход из каталога «/home/ubuntupc/ws_moveit/build/moveit_ros_manipulation/CMakeFiles/CMakeTmp»
+make: *** [Makefile:121: cmTC_82dab/fast] Ошибка 2
+
+
+

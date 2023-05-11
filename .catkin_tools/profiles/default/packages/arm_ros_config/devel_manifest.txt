@@ -1,0 +1,5 @@
+3dof/rbe-legged-robotics-arm/arm_ros_config
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/cmake.lock /home/ubuntupc/ws_moveit/devel/./cmake.lock
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/share/arm_ros_config/cmake/arm_ros_configConfig.cmake /home/ubuntupc/ws_moveit/devel/share/arm_ros_config/cmake/arm_ros_configConfig.cmake
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/share/arm_ros_config/cmake/arm_ros_configConfig-version.cmake /home/ubuntupc/ws_moveit/devel/share/arm_ros_config/cmake/arm_ros_configConfig-version.cmake
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/lib/pkgconfig/arm_ros_config.pc /home/ubuntupc/ws_moveit/devel/lib/pkgconfig/arm_ros_config.pc

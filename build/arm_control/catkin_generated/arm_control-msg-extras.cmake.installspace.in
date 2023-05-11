@@ -1,0 +1,2 @@
+set(arm_control_MESSAGE_FILES "msg/Pose.msg;msg/SetPoseAction.msg;msg/SetPoseActionGoal.msg;msg/SetPoseActionResult.msg;msg/SetPoseActionFeedback.msg;msg/SetPoseGoal.msg;msg/SetPoseResult.msg;msg/SetPoseFeedback.msg;msg/SetJointAction.msg;msg/SetJointActionGoal.msg;msg/SetJointActionResult.msg;msg/SetJointActionFeedback.msg;msg/SetJointGoal.msg;msg/SetJointResult.msg;msg/SetJointFeedback.msg")
+set(arm_control_SERVICE_FILES "srv/SolveFKPose.srv;srv/SolveIKPose.srv")

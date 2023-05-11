@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/install
+
+Name: arm_ros_config
+Description: Description of arm_ros_config
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

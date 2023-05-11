@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/install
+
+Name: rrr_arm
+Description: Description of rrr_arm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

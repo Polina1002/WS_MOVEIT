@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/ros_avr/share/ros_avr/cmake/ros_avrConfig-version.cmake

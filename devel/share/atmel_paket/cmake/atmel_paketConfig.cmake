@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/atmel_paket/share/atmel_paket/cmake/atmel_paketConfig.cmake

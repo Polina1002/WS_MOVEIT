@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/share/arm_ros_config/cmake/arm_ros_configConfig-version.cmake

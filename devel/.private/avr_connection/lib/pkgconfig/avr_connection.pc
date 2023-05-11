@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/devel/.private/avr_connection
+
+Name: avr_connection
+Description: Description of avr_connection
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

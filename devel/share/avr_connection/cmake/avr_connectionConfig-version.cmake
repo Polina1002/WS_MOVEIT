@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/avr_connection/share/avr_connection/cmake/avr_connectionConfig-version.cmake

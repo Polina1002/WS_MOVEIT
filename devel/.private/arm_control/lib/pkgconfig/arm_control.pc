@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/devel/.private/arm_control
+
+Name: arm_control
+Description: Description of arm_control
+Version: 0.0.0
+Cflags: -I/home/ubuntupc/ws_moveit/devel/.private/arm_control/include
+Libs: -L${prefix}/lib 
+Requires: 

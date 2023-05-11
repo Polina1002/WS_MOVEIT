@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config
+
+Name: arm_ros_config
+Description: Description of arm_ros_config
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

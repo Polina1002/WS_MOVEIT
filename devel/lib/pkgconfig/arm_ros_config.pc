@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/arm_ros_config/lib/pkgconfig/arm_ros_config.pc

@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/arm_control/share/roseus/ros/arm_control/msg/SetPoseResult.l

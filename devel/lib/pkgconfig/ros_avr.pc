@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/ros_avr/lib/pkgconfig/ros_avr.pc

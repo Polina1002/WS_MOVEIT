@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>manipulators_description</name>
+  <version>0.0.0</version>
+  <description>Package containing seveeral manipulator URDF descriptions</description>
+
+  <maintainer email="narcis.paloameras@udg.edu">narcis</maintainer>
+
+  <license>BSD</license>
+
+
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+
+  </export>
+</package>

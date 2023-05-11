@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/install
+
+Name: ros_avr
+Description: Description of ros_avr
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

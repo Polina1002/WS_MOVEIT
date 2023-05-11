@@ -1,0 +1,5 @@
+joy_controller
+/home/ubuntupc/ws_moveit/devel/.private/joy_controller/cmake.lock /home/ubuntupc/ws_moveit/devel/./cmake.lock
+/home/ubuntupc/ws_moveit/devel/.private/joy_controller/share/joy_controller/cmake/joy_controllerConfig-version.cmake /home/ubuntupc/ws_moveit/devel/share/joy_controller/cmake/joy_controllerConfig-version.cmake
+/home/ubuntupc/ws_moveit/devel/.private/joy_controller/share/joy_controller/cmake/joy_controllerConfig.cmake /home/ubuntupc/ws_moveit/devel/share/joy_controller/cmake/joy_controllerConfig.cmake
+/home/ubuntupc/ws_moveit/devel/.private/joy_controller/lib/pkgconfig/joy_controller.pc /home/ubuntupc/ws_moveit/devel/lib/pkgconfig/joy_controller.pc

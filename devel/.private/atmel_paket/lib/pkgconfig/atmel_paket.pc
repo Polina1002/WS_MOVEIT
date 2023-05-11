@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/devel/.private/atmel_paket
+
+Name: atmel_paket
+Description: Description of atmel_paket
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

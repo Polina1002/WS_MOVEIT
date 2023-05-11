@@ -1,0 +1,1 @@
+/home/ubuntupc/ws_moveit/devel/.private/joy_controller/lib/pkgconfig/joy_controller.pc

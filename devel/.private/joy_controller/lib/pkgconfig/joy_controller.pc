@@ -1,0 +1,8 @@
+prefix=/home/ubuntupc/ws_moveit/devel/.private/joy_controller
+
+Name: joy_controller
+Description: Description of joy_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

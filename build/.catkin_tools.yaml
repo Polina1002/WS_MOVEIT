@@ -1,0 +1,6 @@
+devel_space: /home/ubuntupc/ws_moveit/devel
+install: false
+install_space: /home/ubuntupc/ws_moveit/install
+profile: default
+source_space: /home/ubuntupc/ws_moveit/src
+workspace: /home/ubuntupc/ws_moveit
